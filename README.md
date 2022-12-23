@@ -1,4 +1,3 @@
-# Starter Kit for [Building Applications in React and Redux](http://www.pluralsight.com/author/cory-house) on Pluralsight
 
 ## Get Started
 
@@ -12,10 +11,18 @@
 
 1. Run `npm install` - If you forget to do this, you'll get an error when you try to start the app later.
 2. Don't run the project from a symbolic link. It will cause issues with file watches.
-3. Delete any .eslintrc in your user directory and disable any ESLint plugin / custom rules within your editor since these will conflict with the ESLint rules defined in the course.
-4. On Windows? Open your console as an administrator. This will assure the console has the necessary rights to perform installs.
-5. Ensure you do not have NODE_ENV=production in your env variables as it will not install the devDependencies. To check run this on the command line: `set NODE_ENV`. If it comes back as production, you need to clear this env variable.
-6. Nothing above work? Delete your node_modules folder and re-run npm install.
+3. Run npm start for local development.
+
+### React/Redux features implemeted in this project
+
+1. Redux actions/store/reducers
+2. React routers
+3. Redux middleware => Thunk
+4. Test: Jest/Enzyme/React Testing Library
+5. React Hooks
+6. Handling API mocking
+
+
 
 ### Production Dependencies
 
